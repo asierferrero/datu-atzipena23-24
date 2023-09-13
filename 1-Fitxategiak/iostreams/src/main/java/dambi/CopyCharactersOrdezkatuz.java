@@ -21,7 +21,6 @@ public class CopyCharactersOrdezkatuz {
 
             int c;
             while ((c = inputStream.read()) != -1) {
-                // Ordezkatu 'a' letra 'o' letrarekin
                 if (c == 'a') {
                     c = 'o';
                 }

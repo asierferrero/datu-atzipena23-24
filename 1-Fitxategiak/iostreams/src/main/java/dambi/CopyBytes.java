@@ -15,7 +15,7 @@ public class CopyBytes {
         FileOutputStream out = null;
 
         try {
-            in = new FileInputStream("xanadu.txt");
+            in = new FileInputStream("xanadus.txt");
             out = new FileOutputStream("outagain.txt");
             int c;
 
