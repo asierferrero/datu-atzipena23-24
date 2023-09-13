@@ -32,5 +32,3 @@ public class CopyBytes {
         }
     }
 }
-
-// CopyLinesZenbakiekin: Lerro bakoitzaren hasieran lerro zenbakia idatziko du.
