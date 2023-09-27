@@ -1,8 +1,10 @@
-package dambi;
+package dambi.marshal;
 
 import java.io.File;
 // import java.time.LocalDate;
+import java.time.LocalDate;
 
+import dambi.business.Country;
 import jakarta.xml.bind.JAXBContext;
 import jakarta.xml.bind.JAXBException;
 import jakarta.xml.bind.Marshaller;
@@ -24,7 +26,7 @@ public class JaxBExampleSimple {
             spain.setName("Spain");
             spain.setCapital("Madrid");
             spain.setContinent("Europe");
-            // spain.setFoundation( LocalDate.of( 1469, 10, 19 ) );
+            spain.setFoundation( LocalDate.of( 1469, 10, 19 ) );
 
             spain.setPopulation(45000000);
 

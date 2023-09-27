@@ -1,31 +1,20 @@
-package dambi;
+package dambi.business;
 
 import java.time.LocalDate;
+
+import dambi.adapter.DateAdapter;
 import jakarta.xml.bind.annotation.XmlElement;
 import jakarta.xml.bind.annotation.XmlRootElement;
 import jakarta.xml.bind.annotation.XmlType;
-// import jakarta.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
+import jakarta.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
-/**
- * Country containing a name, a capital city, a foundation date and the
- * continent it belongs to,
- * these attributes are going to be represented in this order in the generated
- * XML as described in
- * the annotation XmlType
- * 
- * @author dgutierrez-diez
- */
 @XmlType(propOrder = { "name", "capital", "foundation", "continent", "population" })
 @XmlRootElement(name = "Country")
 public class Country {
     String name;
-
     String capital;
-
     LocalDate foundation;
-
     String continent;
-
     int population;
 
     @XmlElement(name = "Country_Population")
@@ -37,31 +26,13 @@ public class Country {
         this.population = population;
     }
 
+    @XmlElement(name = "Country_Name")
     public String getName() {
         return name;
     }
 
-    @XmlElement(name = "Country_Name")
     public void setName(String name) {
         this.name = name;
-    }
-
-    @Override
-    public String toString() {
-        StringBuffer str = new StringBuffer("Name: " + getName() + "\n");
-        str.append("Capital: " + getCapital() + "\n");
-
-        if (getFoundation() != null) {
-            str.append(getFoundation().toString());
-            str.append("\n");
-        }
-
-        if (getContinent() != null) {
-            str.append(getContinent().toString());
-            str.append("\n");
-        }
-
-        return str.toString();
     }
 
     public String getCapital() {
@@ -74,21 +45,20 @@ public class Country {
     }
 
     @XmlElement(name = "Country_Foundation_Date")
+    @XmlJavaTypeAdapter(DateAdapter.class)
     public LocalDate getFoundation() {
         return foundation;
     }
-    
-    // @XmlElement(name = "Country_Foundation_Date")
-    // @XmlJavaTypeAdapter(DateAdapter.class)
-    // public void setFoundation(LocalDate foundation) {
-    // this.foundation = foundation;
-    // }
 
+    public void setFoundation(LocalDate foundation) {
+        this.foundation = foundation;
+    }
+
+    @XmlElement(name = "Country_Continent")
     public String getContinent() {
         return continent;
     }
 
-    @XmlElement(name = "Country_Continent")
     public void setContinent(String continent) {
         this.continent = continent;
     }
