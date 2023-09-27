@@ -6,12 +6,6 @@ import java.util.List;
 import jakarta.xml.bind.annotation.XmlElement;
 import jakarta.xml.bind.annotation.XmlRootElement;
 
-/**
- * JaxB is not capable of marshal lists directly as root elements, so we need a container for the
- * list of countries. Getter and Setter are used by jaxb
- * 
- * @author dgutierrez-diez
- */
 @XmlRootElement( name = "Countries" )
 public class Countries
 {

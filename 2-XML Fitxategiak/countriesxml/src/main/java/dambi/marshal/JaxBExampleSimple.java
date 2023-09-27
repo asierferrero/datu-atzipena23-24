@@ -1,21 +1,12 @@
 package dambi.marshal;
 
 import java.io.File;
-// import java.time.LocalDate;
 import java.time.LocalDate;
-
 import dambi.business.Country;
 import jakarta.xml.bind.JAXBContext;
 import jakarta.xml.bind.JAXBException;
 import jakarta.xml.bind.Marshaller;
 
-// import com.danibuiza.jaxb.ultimate.business.Country;
-
-/**
- * Simple example of usage of jaxb marshaling functionalities
- * 
- * @author dgutierrez-diez
- */
 public class JaxBExampleSimple {
 
     public static void main(String[] args) {

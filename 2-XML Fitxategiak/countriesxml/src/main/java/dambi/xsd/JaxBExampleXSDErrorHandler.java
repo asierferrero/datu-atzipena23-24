@@ -14,76 +14,65 @@ import org.xml.sax.SAXException;
 
 import dambi.business.Country;
 
-
-
 /**
- * Example of XSD usage for validation using an error handler, no marshalling involved here
+ * Example of XSD usage for validation using an error handler, no marshalling
+ * involved here
  * 
  * @author dgutierrez-diez
  */
-public class JaxBExampleXSDErrorHandler
-{
+public class JaxBExampleXSDErrorHandler {
 
-    public static void main( String[] args ) throws Exception
-    {
+    public static void main(String[] args) throws Exception {
         /**
          * error will be thrown because continent is mandatory
          */
         Country spain = new Country();
-        spain.setName( "Spain" );
-        spain.setCapital( "Madrid" );
-        spain.setFoundation( LocalDate.of( 1469, 10, 19 ) );
-
+        spain.setName("Spain");
+        spain.setCapital("Madrid");
+        spain.setFoundation(LocalDate.of(1469, 10, 19));
 
         /**
          * ok
          */
         Country australia = new Country();
-        australia.setName( "Australia" );
-        australia.setCapital( "Camberra" );
-        australia.setFoundation( LocalDate.of( 1788, 01, 26 ) );
-        australia.setContinent( "Oceania" );
-
+        australia.setName("Australia");
+        australia.setCapital("Camberra");
+        australia.setFoundation(LocalDate.of(1788, 01, 26));
+        australia.setContinent("Oceania");
 
         /**
          * schema is created
          */
-        SchemaFactory sf = SchemaFactory.newInstance( XMLConstants.W3C_XML_SCHEMA_NS_URI );
-        Schema schema = sf.newSchema( new File( "countries_validation.xsd" ) );
+        SchemaFactory sf = SchemaFactory.newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI);
+        Schema schema = sf.newSchema(new File("countries_validation.xsd"));
 
         /**
          * context is created and used to create sources for each country
          */
-        JAXBContext jaxbContext = JAXBContext.newInstance( Country.class );
-        JAXBSource sourceSpain = new JAXBSource( jaxbContext, spain );
-        JAXBSource sourceAustralia = new JAXBSource( jaxbContext, australia );
+        JAXBContext jaxbContext = JAXBContext.newInstance(Country.class);
+        JAXBSource sourceSpain = new JAXBSource(jaxbContext, spain);
+        JAXBSource sourceAustralia = new JAXBSource(jaxbContext, australia);
 
         /**
          * validator is initialized
          */
         Validator validator = schema.newValidator();
-        validator.setErrorHandler( new MyErrorHandler() );
+        validator.setErrorHandler(new MyErrorHandler());
 
-        //validator is used
-        try
-        {
-            validator.validate( sourceSpain );
-            System.out.println( "spain has no problems" );
-        }
-        catch( SAXException ex )
-        {
+        // validator is used
+        try {
+            validator.validate(sourceSpain);
+            System.out.println("spain has no problems");
+        } catch (SAXException ex) {
             ex.printStackTrace();
-            System.out.println( "spain has problems" );
+            System.out.println("spain has problems");
         }
-        try
-        {
-            validator.validate( sourceAustralia );
-            System.out.println( "australia has no problems" );
-        }
-        catch( SAXException ex )
-        {
+        try {
+            validator.validate(sourceAustralia);
+            System.out.println("australia has no problems");
+        } catch (SAXException ex) {
             ex.printStackTrace();
-            System.out.println( "australia has problems" );
+            System.out.println("australia has problems");
         }
     }
 }
