@@ -11,6 +11,15 @@ public class Mendia {
     String altuera;
     String probintzia;
 
+    public Mendia() {
+    }
+
+    public Mendia(String izena, String altuera, String probintzia) {
+        this.izena = izena;
+        this.altuera = altuera;
+        this.probintzia = probintzia;
+    }
+
     @XmlElement(name = "Mendia_izena")
     public String getIzena() {
         return izena;
