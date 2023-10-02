@@ -1,11 +1,11 @@
-package dambi;
+package dambi.marshal;
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
-import dambi.marshal.Mendia;
-import dambi.marshal.Mendiak;
+import dambi.model.Mendia;
+import dambi.model.Mendiak;
 import jakarta.xml.bind.JAXBContext;
 import jakarta.xml.bind.JAXBException;
 import jakarta.xml.bind.Marshaller;
@@ -37,15 +37,14 @@ public class HiruMendiSortu {
         mendiakWrapper.setMendiak(mendiak);
 
         /* init jaxb marshaler */
-        JAXBContext jaxbcontext = JAXBContext.newInstance(Mendia.class);
+        JAXBContext jaxbcontext = JAXBContext.newInstance(Mendiak.class);
         Marshaller jaxbMarshaller = jaxbcontext.createMarshaller();
 
         /* set this flag to true to format the output */
         jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
 
         /* marshaling of java objects in xml (output to file and standard output) */
-        jaxbMarshaller.marshal(mendiak, new File("hirumendi.xml"));
-        jaxbMarshaller.marshal(mendiak, System.out);
-
+        jaxbMarshaller.marshal(mendiakWrapper, new File("hirumendi.xml"));
+        jaxbMarshaller.marshal(mendiakWrapper, System.out);
     }
 }

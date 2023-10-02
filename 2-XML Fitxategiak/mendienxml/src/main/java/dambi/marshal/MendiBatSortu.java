@@ -1,8 +1,8 @@
-package dambi;
+package dambi.marshal;
 
 import java.io.File;
 
-import dambi.marshal.Mendia;
+import dambi.model.Mendia;
 import jakarta.xml.bind.JAXBContext;
 import jakarta.xml.bind.JAXBException;
 import jakarta.xml.bind.Marshaller;

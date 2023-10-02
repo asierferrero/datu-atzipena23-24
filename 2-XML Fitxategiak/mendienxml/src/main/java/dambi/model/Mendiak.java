@@ -1,4 +1,4 @@
-package dambi.marshal;
+package dambi.model;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,13 +19,13 @@ public class Mendiak {
         this.mendiak = mendiak;
     }
 
-    public void add(Mendia country) {
+    public void add(Mendia mendia) {
         if (this.mendiak == null) {
             this.mendiak = new ArrayList<Mendia>();
         }
-        this.mendiak.add(country);
-
+        this.mendiak.add(mendia);
     }
+    
 
     @Override
     public String toString() {

@@ -1,4 +1,4 @@
-package dambi.marshal;
+package dambi.model;
 
 import jakarta.xml.bind.annotation.XmlType;
 import jakarta.xml.bind.annotation.XmlElement;
@@ -20,16 +20,16 @@ public class Mendia {
         this.izena = izena;
     }
 
-    @XmlElement (name = "Mendia_altuera")
+    @XmlElement(name = "Mendia_altuera")
     public String getAltuera() {
         return altuera;
     }
 
-    public void setAltuera(String altuera) {
-        this.altuera = altuera;
+    public void setAltuera(String string) {
+        this.altuera = string;
     }
 
-    @XmlElement (name = "Mendia_probintzia")
+    @XmlElement(name = "Mendia_probintzia")
     public String getProbintzia() {
         return probintzia;
     }
@@ -37,5 +37,4 @@ public class Mendia {
     public void setProbintzia(String probintzia) {
         this.probintzia = probintzia;
     }
-
 }
