@@ -4,7 +4,7 @@ import javax.json.Json;
 import javax.json.JsonObject;
 
 public class JsonZuhaitzaSortu {
-    JsonObject model = Json.createObjectBuilder()
+   JsonObject model = Json.createObjectBuilder()
    .add("firstName", "Duke")
    .add("lastName", "Java")
    .add("age", 18)

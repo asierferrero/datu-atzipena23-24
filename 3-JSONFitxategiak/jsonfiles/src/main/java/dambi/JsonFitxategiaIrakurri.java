@@ -17,7 +17,7 @@ public class JsonFitxategiaIrakurri {
     }
 
     public static void jsonIrakurri() throws FileNotFoundException {
-        JsonReader reader = Json.createReader(new FileReader("./jsondata.txt"));
+        JsonReader reader = Json.createReader(new FileReader("./data/Irteera.json"));
         JsonStructure jsonst = reader.read();
         System.out.println(jsonst);
     }
