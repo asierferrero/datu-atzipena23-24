@@ -22,7 +22,7 @@ public class CsvToXml {
             String line;
             while ((line = inputStream.readLine()) != null) {
                 String[] fields = line.split(";");
-                if (fields.length == 3 && fields[0].equals("MENDIA")) {
+                if (fields.length == 3) {
                     Mendia mendia = new Mendia(fields[0], fields[1], fields[2]);
                     mendiak.add(mendia);
                 }
