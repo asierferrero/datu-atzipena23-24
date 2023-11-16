@@ -1,121 +1,96 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Mendiak>
-    <Mendia>
-        <Mendia_id>1</Mendia_id>
-        <Mendia_izena>MENDIA</Mendia_izena>
-        <Mendia_altuera>ALTUERA</Mendia_altuera>
-        <Mendia_probintzia>PROBINTZIA</Mendia_probintzia>
-    </Mendia>
-    <Mendia>
-        <Mendia_id>2</Mendia_id>
+    <Mendia id="1">
         <Mendia_izena>Aketegi</Mendia_izena>
         <Mendia_altuera>1548</Mendia_altuera>
         <Mendia_probintzia>Gipuzkoa</Mendia_probintzia>
     </Mendia>
-    <Mendia>
-        <Mendia_id>3</Mendia_id>
+    <Mendia id="2">
         <Mendia_izena>Albertia</Mendia_izena>
         <Mendia_altuera>868</Mendia_altuera>
         <Mendia_probintzia>Araba</Mendia_probintzia>
     </Mendia>
-    <Mendia>
-        <Mendia_id>4</Mendia_id>
+    <Mendia id="3">
         <Mendia_izena>Alluitz</Mendia_izena>
         <Mendia_altuera>1034</Mendia_altuera>
         <Mendia_probintzia>Bizkaia</Mendia_probintzia>
     </Mendia>
-    <Mendia>
-        <Mendia_id>5</Mendia_id>
+    <Mendia id="4">
         <Mendia_izena>Anboto</Mendia_izena>
         <Mendia_altuera>1331</Mendia_altuera>
         <Mendia_probintzia>Bizkaia</Mendia_probintzia>
     </Mendia>
-    <Mendia>
-        <Mendia_id>6</Mendia_id>
+    <Mendia id="5">
         <Mendia_izena>Aratz</Mendia_izena>
         <Mendia_altuera>1443</Mendia_altuera>
         <Mendia_probintzia>Araba</Mendia_probintzia>
     </Mendia>
-    <Mendia>
-        <Mendia_id>7</Mendia_id>
+    <Mendia id="6">
         <Mendia_izena>Arrate</Mendia_izena>
         <Mendia_altuera>556</Mendia_altuera>
         <Mendia_probintzia>Gipuzkoa</Mendia_probintzia>
     </Mendia>
-    <Mendia>
-        <Mendia_id>8</Mendia_id>
+    <Mendia id="7">
         <Mendia_izena>Hernio</Mendia_izena>
         <Mendia_altuera>1075</Mendia_altuera>
         <Mendia_probintzia>Gipuzkoa</Mendia_probintzia>
     </Mendia>
-    <Mendia>
-        <Mendia_id>9</Mendia_id>
+    <Mendia id="8">
         <Mendia_izena>Ipizte</Mendia_izena>
         <Mendia_altuera>1062</Mendia_altuera>
         <Mendia_probintzia>Araba</Mendia_probintzia>
     </Mendia>
-    <Mendia>
-        <Mendia_id>10</Mendia_id>
+    <Mendia id="9">
         <Mendia_izena>Jarindo</Mendia_izena>
         <Mendia_altuera>896</Mendia_altuera>
         <Mendia_probintzia>Araba</Mendia_probintzia>
     </Mendia>
-    <Mendia>
-        <Mendia_id>11</Mendia_id>
+    <Mendia id="10">
         <Mendia_izena>Kapildui</Mendia_izena>
         <Mendia_altuera>1177</Mendia_altuera>
         <Mendia_probintzia>Araba</Mendia_probintzia>
     </Mendia>
-    <Mendia>
-        <Mendia_id>12</Mendia_id>
+    <Mendia id="11">
         <Mendia_izena>Karakate</Mendia_izena>
         <Mendia_altuera>749</Mendia_altuera>
         <Mendia_probintzia>Gipuzkoa</Mendia_probintzia>
     </Mendia>
-    <Mendia>
-        <Mendia_id>13</Mendia_id>
+    <Mendia id="12">
         <Mendia_izena>Kurtzebarri</Mendia_izena>
         <Mendia_altuera>1133</Mendia_altuera>
         <Mendia_probintzia>Gipuzkoa</Mendia_probintzia>
     </Mendia>
-    <Mendia>
-        <Mendia_id>14</Mendia_id>
+    <Mendia id="13">
         <Mendia_izena>Lapazarra</Mendia_izena>
         <Mendia_altuera>1785</Mendia_altuera>
         <Mendia_probintzia>Nafarroa</Mendia_probintzia>
     </Mendia>
-    <Mendia>
-        <Mendia_id>15</Mendia_id>
+    <Mendia id="14">
         <Mendia_izena>Mirutegi</Mendia_izena>
         <Mendia_altuera>1166</Mendia_altuera>
         <Mendia_probintzia>Araba</Mendia_probintzia>
     </Mendia>
-    <Mendia>
-        <Mendia_id>16</Mendia_id>
+    <Mendia id="15">
         <Mendia_izena>Mugarra</Mendia_izena>
         <Mendia_altuera>964</Mendia_altuera>
         <Mendia_probintzia>Bizkaia</Mendia_probintzia>
     </Mendia>
-    <Mendia>
-        <Mendia_id>17</Mendia_id>
+    <Mendia id="16">
         <Mendia_izena>Oiz</Mendia_izena>
         <Mendia_altuera>1029</Mendia_altuera>
         <Mendia_probintzia>Bizkaia</Mendia_probintzia>
     </Mendia>
-    <Mendia>
-        <Mendia_id>18</Mendia_id>
+    <Mendia id="17">
         <Mendia_izena>Soila</Mendia_izena>
         <Mendia_altuera>993</Mendia_altuera>
         <Mendia_probintzia>Araba</Mendia_probintzia>
     </Mendia>
-    <Mendia>
-        <Mendia_id>19</Mendia_id>
+    <Mendia id="18">
         <Mendia_izena>Toloño</Mendia_izena>
         <Mendia_altuera>1263</Mendia_altuera>
         <Mendia_probintzia>Araba</Mendia_probintzia>
     </Mendia>
-    <Mendia>
-        <Mendia_id>20</Mendia_id>
+    <Mendia id="19">
         <Mendia_izena>Txamantxoia</Mendia_izena>
         <Mendia_altuera>1945</Mendia_altuera>
         <Mendia_probintzia>Nafarroa</Mendia_probintzia>

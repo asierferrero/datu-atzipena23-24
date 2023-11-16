@@ -1,23 +1,34 @@
 package dambi.mainklaseak;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+
+import dambi.atzipenekoak.Csva;
+import dambi.atzipenekoak.Jsona;
+import dambi.atzipenekoak.Xmla;
+
+import dambi.pojoak.Mendiak;
+import jakarta.xml.bind.JAXBException;
 
 public class Irakurketak {
-    public static void main(String[] args) throws FileNotFoundException, IOException {
-        List<List<String>> records = new ArrayList<>();
-        try (BufferedReader br = new BufferedReader(new FileReader("./Mendiak.csv"))) {
-            String line;
-            while ((line = br.readLine()) != null) {
-                String[] values = line.split(";");
-                records.add(Arrays.asList(values));
-            }
-            System.out.println(records);
+    public static void main(String[] args) throws IOException, JAXBException {
+        Mendiak mendiak = new Mendiak();
+        Csva csva = new Csva("./Mendiak.csv");
+        mendiak = csva.irakurri();
+        if (mendiak != null) {
+            System.out.println(csva.strFileIn + " fitxategian mendi hauek daude: ");
+            System.out.println(mendiak);
+        }
+        Xmla xmla = new Xmla("./Mendiak.xml");
+        mendiak = xmla.irakurri();
+        if (mendiak != null) {
+            System.out.println(xmla.strFileIn + " fitxategian mendi hauek daude: ");
+            System.out.println(mendiak);
+        }
+        Jsona jsona = new Jsona("./Mendiak.json");
+        mendiak = jsona.irakurri();
+        if (mendiak != null) {
+            System.out.println(jsona.strFileIn + " fitxategian mendi hauek daude: ");
+            System.out.println(mendiak);
         }
     }
 }
