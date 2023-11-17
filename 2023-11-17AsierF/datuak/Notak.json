@@ -1,0 +1,450 @@
+[
+    {
+        "id": 1,
+        "ikaslea": "alberdi.jon",
+        "data": "2023-02-28",
+        "ikasgaia": "program",
+        "nota": 9.4
+    },
+    {
+        "id": 2,
+        "ikaslea": "alonso.aimar",
+        "data": "2023-02-28",
+        "ikasgaia": "program",
+        "nota": 6.0
+    },
+    {
+        "id": 3,
+        "ikaslea": "arruabarrena.aritz",
+        "data": "2023-02-28",
+        "ikasgaia": "program",
+        "nota": 7.0
+    },
+    {
+        "id": 4,
+        "ikaslea": "caceres.alberto",
+        "data": "2023-02-28",
+        "ikasgaia": "program",
+        "nota": 8.0
+    },
+    {
+        "id": 5,
+        "ikaslea": "calo.gerson",
+        "data": "2023-02-28",
+        "ikasgaia": "program",
+        "nota": 9.0
+    },
+    {
+        "id": 6,
+        "ikaslea": "delatorre.aiert",
+        "data": "2023-02-28",
+        "ikasgaia": "program",
+        "nota": 10.0
+    },
+    {
+        "id": 7,
+        "ikaslea": "ferrero.asier",
+        "data": "2023-02-28",
+        "ikasgaia": "program",
+        "nota": 9.0
+    },
+    {
+        "id": 8,
+        "ikaslea": "galindo.julen",
+        "data": "2023-02-28",
+        "ikasgaia": "program",
+        "nota": 8.0
+    },
+    {
+        "id": 9,
+        "ikaslea": "garcia.gorka",
+        "data": "2023-02-28",
+        "ikasgaia": "program",
+        "nota": 7.0
+    },
+    {
+        "id": 10,
+        "ikaslea": "herrero.julen",
+        "data": "2023-02-28",
+        "ikasgaia": "program",
+        "nota": 6.0
+    },
+    {
+        "id": 11,
+        "ikaslea": "maiora.arkaitz",
+        "data": "2023-02-28",
+        "ikasgaia": "program",
+        "nota": 5.0
+    },
+    {
+        "id": 12,
+        "ikaslea": "martiartu.markel",
+        "data": "2023-02-28",
+        "ikasgaia": "program",
+        "nota": 6.0
+    },
+    {
+        "id": 13,
+        "ikaslea": "nistal.iker",
+        "data": "2023-02-28",
+        "ikasgaia": "program",
+        "nota": 7.0
+    },
+    {
+        "id": 14,
+        "ikaslea": "pelaez.julen",
+        "data": "2023-02-28",
+        "ikasgaia": "program",
+        "nota": 8.0
+    },
+    {
+        "id": 15,
+        "ikaslea": "telleria.jon",
+        "data": "2023-02-28",
+        "ikasgaia": "program",
+        "nota": 9.0
+    },
+    {
+        "id": 16,
+        "ikaslea": "zelaia.unai",
+        "data": "2023-02-28",
+        "ikasgaia": "program",
+        "nota": 10.0
+    },
+    {
+        "id": 17,
+        "ikaslea": "alberdi.jon",
+        "data": "2023-06-05",
+        "ikasgaia": "program",
+        "nota": 8.0
+    },
+    {
+        "id": 18,
+        "ikaslea": "alonso.aimar",
+        "data": "2023-06-05",
+        "ikasgaia": "program",
+        "nota": 7.0
+    },
+    {
+        "id": 19,
+        "ikaslea": "arruabarrena.aritz",
+        "data": "2023-06-05",
+        "ikasgaia": "program",
+        "nota": 6.0
+    },
+    {
+        "id": 20,
+        "ikaslea": "caceres.alberto",
+        "data": "2023-06-05",
+        "ikasgaia": "program",
+        "nota": 5.0
+    },
+    {
+        "id": 21,
+        "ikaslea": "calo.gerson",
+        "data": "2023-06-05",
+        "ikasgaia": "program",
+        "nota": 6.0
+    },
+    {
+        "id": 22,
+        "ikaslea": "delatorre.aiert",
+        "data": "2023-06-05",
+        "ikasgaia": "program",
+        "nota": 7.0
+    },
+    {
+        "id": 23,
+        "ikaslea": "ferrero.asier",
+        "data": "2023-06-05",
+        "ikasgaia": "program",
+        "nota": 8.0
+    },
+    {
+        "id": 24,
+        "ikaslea": "galindo.julen",
+        "data": "2023-06-05",
+        "ikasgaia": "program",
+        "nota": 9.0
+    },
+    {
+        "id": 25,
+        "ikaslea": "garcia.gorka",
+        "data": "2023-06-05",
+        "ikasgaia": "program",
+        "nota": 10.0
+    },
+    {
+        "id": 26,
+        "ikaslea": "herrero.julen",
+        "data": "2023-06-05",
+        "ikasgaia": "program",
+        "nota": 9.0
+    },
+    {
+        "id": 27,
+        "ikaslea": "maiora.arkaitz",
+        "data": "2023-06-05",
+        "ikasgaia": "interfaze",
+        "nota": 8.0
+    },
+    {
+        "id": 28,
+        "ikaslea": "martiartu.markel",
+        "data": "2023-06-05",
+        "ikasgaia": "interfaze",
+        "nota": 7.0
+    },
+    {
+        "id": 29,
+        "ikaslea": "nistal.iker",
+        "data": "2023-06-05",
+        "ikasgaia": "interfaze",
+        "nota": 6.0
+    },
+    {
+        "id": 30,
+        "ikaslea": "pelaez.julen",
+        "data": "2023-06-05",
+        "ikasgaia": "interfaze",
+        "nota": 5.0
+    },
+    {
+        "id": 31,
+        "ikaslea": "telleria.jon",
+        "data": "2023-06-05",
+        "ikasgaia": "interfaze",
+        "nota": 6.0
+    },
+    {
+        "id": 32,
+        "ikaslea": "zelaia.unai",
+        "data": "2023-06-05",
+        "ikasgaia": "interfaze",
+        "nota": 7.0
+    },
+    {
+        "id": 33,
+        "ikaslea": "alberdi.jon",
+        "data": "2023-10-19",
+        "ikasgaia": "multimedia",
+        "nota": 8.0
+    },
+    {
+        "id": 34,
+        "ikaslea": "alonso.aimar",
+        "data": "2023-10-19",
+        "ikasgaia": "multimedia",
+        "nota": 9.0
+    },
+    {
+        "id": 35,
+        "ikaslea": "arruabarrena.aritz",
+        "data": "2023-10-19",
+        "ikasgaia": "multimedia",
+        "nota": 10.0
+    },
+    {
+        "id": 36,
+        "ikaslea": "caceres.alberto",
+        "data": "2023-10-19",
+        "ikasgaia": "multimedia",
+        "nota": 9.0
+    },
+    {
+        "id": 37,
+        "ikaslea": "calo.gerson",
+        "data": "2023-10-19",
+        "ikasgaia": "multimedia",
+        "nota": 8.0
+    },
+    {
+        "id": 38,
+        "ikaslea": "delatorre.aiert",
+        "data": "2023-10-19",
+        "ikasgaia": "multimedia",
+        "nota": 7.0
+    },
+    {
+        "id": 39,
+        "ikaslea": "ferrero.asier",
+        "data": "2023-10-19",
+        "ikasgaia": "multimedia",
+        "nota": 6.0
+    },
+    {
+        "id": 40,
+        "ikaslea": "galindo.julen",
+        "data": "2023-10-19",
+        "ikasgaia": "multimedia",
+        "nota": 5.0
+    },
+    {
+        "id": 41,
+        "ikaslea": "garcia.gorka",
+        "data": "2023-10-19",
+        "ikasgaia": "multimedia",
+        "nota": 6.0
+    },
+    {
+        "id": 42,
+        "ikaslea": "herrero.julen",
+        "data": "2023-10-19",
+        "ikasgaia": "multimedia",
+        "nota": 7.0
+    },
+    {
+        "id": 43,
+        "ikaslea": "maiora.arkaitz",
+        "data": "2023-10-19",
+        "ikasgaia": "multimedia",
+        "nota": 8.0
+    },
+    {
+        "id": 44,
+        "ikaslea": "martiartu.markel",
+        "data": "2023-10-20",
+        "ikasgaia": "da",
+        "nota": 9.0
+    },
+    {
+        "id": 45,
+        "ikaslea": "nistal.iker",
+        "data": "2023-10-20",
+        "ikasgaia": "da",
+        "nota": 10.0
+    },
+    {
+        "id": 46,
+        "ikaslea": "pelaez.julen",
+        "data": "2023-10-20",
+        "ikasgaia": "da",
+        "nota": 9.0
+    },
+    {
+        "id": 47,
+        "ikaslea": "telleria.jon",
+        "data": "2023-10-20",
+        "ikasgaia": "da",
+        "nota": 8.0
+    },
+    {
+        "id": 48,
+        "ikaslea": "zelaia.unai",
+        "data": "2023-10-20",
+        "ikasgaia": "da",
+        "nota": 7.0
+    },
+    {
+        "id": 49,
+        "ikaslea": "alberdi.jon",
+        "data": "2023-10-20",
+        "ikasgaia": "da",
+        "nota": 6.0
+    },
+    {
+        "id": 50,
+        "ikaslea": "alonso.aimar",
+        "data": "2023-10-20",
+        "ikasgaia": "da",
+        "nota": 5.0
+    },
+    {
+        "id": 51,
+        "ikaslea": "arruabarrena.aritz",
+        "data": "2023-10-20",
+        "ikasgaia": "da",
+        "nota": 6.0
+    },
+    {
+        "id": 52,
+        "ikaslea": "caceres.alberto",
+        "data": "2023-10-20",
+        "ikasgaia": "da",
+        "nota": 7.0
+    },
+    {
+        "id": 53,
+        "ikaslea": "calo.gerson",
+        "data": "2023-10-20",
+        "ikasgaia": "da",
+        "nota": 8.0
+    },
+    {
+        "id": 54,
+        "ikaslea": "delatorre.aiert",
+        "data": "2023-10-20",
+        "ikasgaia": "da",
+        "nota": 9.0
+    },
+    {
+        "id": 55,
+        "ikaslea": "ferrero.asier",
+        "data": "2023-10-20",
+        "ikasgaia": "da",
+        "nota": 10.0
+    },
+    {
+        "id": 56,
+        "ikaslea": "galindo.julen",
+        "data": "2023-10-20",
+        "ikasgaia": "da",
+        "nota": 9.0
+    },
+    {
+        "id": 57,
+        "ikaslea": "garcia.gorka",
+        "data": "2023-10-20",
+        "ikasgaia": "da",
+        "nota": 8.0
+    },
+    {
+        "id": 58,
+        "ikaslea": "herrero.julen",
+        "data": "2023-10-20",
+        "ikasgaia": "da",
+        "nota": 7.0
+    },
+    {
+        "id": 59,
+        "ikaslea": "maiora.arkaitz",
+        "data": "2023-10-20",
+        "ikasgaia": "da",
+        "nota": 6.0
+    },
+    {
+        "id": 60,
+        "ikaslea": "martiartu.markel",
+        "data": "2023-10-20",
+        "ikasgaia": "da",
+        "nota": 5.5
+    },
+    {
+        "id": 61,
+        "ikaslea": "nistal.iker",
+        "data": "2023-10-20",
+        "ikasgaia": "da",
+        "nota": 6.6
+    },
+    {
+        "id": 62,
+        "ikaslea": "pelaez.julen",
+        "data": "2023-10-20",
+        "ikasgaia": "da",
+        "nota": 8.0
+    },
+    {
+        "id": 63,
+        "ikaslea": "telleria.jon",
+        "data": "2023-10-20",
+        "ikasgaia": "da",
+        "nota": 7.5
+    },
+    {
+        "id": 64,
+        "ikaslea": "zelaia.unai",
+        "data": "2023-10-20",
+        "ikasgaia": "da",
+        "nota": 9.9
+    }
+]
