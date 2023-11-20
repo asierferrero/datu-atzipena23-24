@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-KaixoSpringApplication<kaixo-spring>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "dambi.kaixospring.KaixoSpringApplication",
+            "projectName": "kaixo-spring",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
