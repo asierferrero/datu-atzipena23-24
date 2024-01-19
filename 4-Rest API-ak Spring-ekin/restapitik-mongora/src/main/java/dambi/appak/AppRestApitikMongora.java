@@ -20,7 +20,7 @@ public class AppRestApitikMongora {
     /**
      * @throws URISyntaxException  */
     public static void main(String[] args) throws IOException, URISyntaxException {
-        URL url = new URI("https://jsonplaceholder.typicode.com/users").toURL();
+        URL url = new URI("https://jsonplaceholder.typicode.com/users").toURL(); // 4 taldeen url-a
        
         MongoAtzipena ma = new MongoAtzipena();
         RestAtzipena ra = new RestAtzipena();
